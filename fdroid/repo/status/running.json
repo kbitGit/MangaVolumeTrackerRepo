@@ -2,6 +2,6 @@
   "commandLine": [
     "/home/pghotra/Dev/fdroidserver/fdroid/bin/fdroid update"
   ],
-  "startTimestamp": 1641575171000,
+  "startTimestamp": 1641580812000,
   "subcommand": "update"
 }
