@@ -1,1 +1,1 @@
-{"antiFeatures":{},"commandLine":["/home/pghotra/Dev/fdroidserver/fdroid/bin/fdroid update"],"disabled":[],"endTimestamp":1641585822572,"failedBuilds":{},"noPackages":["de.ghotra.manga_volume_tracker"],"startTimestamp":1641582220000,"subcommand":"update"}
+{"antiFeatures":{},"commandLine":["/home/pghotra/Dev/fdroidserver/fdroid/bin/fdroid update"],"disabled":[],"endTimestamp":1641660444390,"failedBuilds":{},"noPackages":["de.ghotra.manga_volume_tracker"],"startTimestamp":1641656842000,"subcommand":"update"}
