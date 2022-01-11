@@ -1,1 +1,134 @@
-{"repo": {"timestamp": 1641664334000, "version": 20000, "name": "MangaVolumeTrackerRepo", "icon": "logo.png", "address": "https://kbitgit.github.io/MangaVolumeTrackerRepo/fdroid/repo/", "description": "A Repository for a Manga Volume Tracker.", "mirrors": ["https://raw.githubusercontent.com/kbitGit/MangaVolumeTrackerRepo/master/fdroid/repo"]}, "requests": {"install": [], "uninstall": []}, "apps": [{"authorName": "Pavitter Ghotra", "categories": ["Reading"], "suggestedVersionName": "2.0.0", "suggestedVersionCode": "2", "description": "Developed with Flutter Version 2.8.1\nA simple app with the goal to manage your manga volumes. Currently only tested and developed for Android.\nThe app tracks the following properties of a manga:\nTitle Currently owned volumes Total volumes or if it is still releasing Format (physical or digital) Custom Notes\nThe app supports Dark mode.", "issueTracker": "https://github.com/kbitGit/manga_volume_tracker/issues", "license": "MIT", "name": "Manga Volume Tracker", "sourceCode": "https://github.com/kbitGit/manga_volume_tracker", "summary": "A simple app with the goal to manage your manga volumes", "added": 1641578704000, "packageName": "de.ghotra.manga_volume_tracker", "lastUpdated": 1641664126000, "localized": {"de-DE": {"featureGraphic": "featureGraphic_ogIomoKHJIVXNMkPhQB_GAHS0FwnhDXALIn0qHrx7Dc=.png", "phoneScreenshots": ["app_screenshot1dark.jpg", "app_screenshot1light.jpg", "app_screenshot2dark.jpg", "app_screenshot2light.jpg"]}, "en-US": {"featureGraphic": "featureGraphic_ogIomoKHJIVXNMkPhQB_GAHS0FwnhDXALIn0qHrx7Dc=.png", "phoneScreenshots": ["app_screenshot1dark.jpg", "app_screenshot1light.jpg", "app_screenshot2dark.jpg", "app_screenshot2light.jpg"]}}}], "packages": {"de.ghotra.manga_volume_tracker": [{"added": 1641664126000, "apkName": "manga_volume_tracker_2_0_1.apk", "hash": "e7266b20dac03cd2012f2cca13c8d1fe6c5fc3339d52594edf70463e8556410c", "hashType": "sha256", "minSdkVersion": 16, "nativecode": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"], "packageName": "de.ghotra.manga_volume_tracker", "sig": "117209e0b1f4c0ea1a376a732de1e391", "signer": "3072ef3c5975afacff91908d05bb00b48bb96cee991d522e800c67c5d85041b9", "size": 22340788, "targetSdkVersion": 30, "versionCode": 1000003, "versionName": "2.0.1"}, {"added": 1641578705000, "apkName": "manga_volume_tracker_x86_64_2.apk", "hash": "59c8d03027f0ec5b0a1fef9314e4087dd2ec9c5880e4b34cf92e1d7ac07e3d9a", "hashType": "sha256", "minSdkVersion": 16, "nativecode": ["x86_64"], "packageName": "de.ghotra.manga_volume_tracker", "sig": "117209e0b1f4c0ea1a376a732de1e391", "signer": "3072ef3c5975afacff91908d05bb00b48bb96cee991d522e800c67c5d85041b9", "size": 8333238, "targetSdkVersion": 30, "versionCode": 4002, "versionName": "2.0.0"}, {"added": 1641578704000, "apkName": "manga_volume_tracker_arm64-v8a_2.apk", "hash": "06c150482a41d2732c0ccb73e7216c5e62b09c90a97a0f2106d6fe29cbd9fff2", "hashType": "sha256", "minSdkVersion": 16, "nativecode": ["arm64-v8a"], "packageName": "de.ghotra.manga_volume_tracker", "sig": "117209e0b1f4c0ea1a376a732de1e391", "signer": "3072ef3c5975afacff91908d05bb00b48bb96cee991d522e800c67c5d85041b9", "size": 8111932, "targetSdkVersion": 30, "versionCode": 2002, "versionName": "2.0.0"}, {"added": 1641578704000, "apkName": "manga_volume_tracker_armeabi-v7a_2.apk", "hash": "9e7508e48e0d9631da5e4776272bab4c9c236c60a0f17569254434ef5641518b", "hashType": "sha256", "minSdkVersion": 16, "nativecode": ["armeabi-v7a"], "packageName": "de.ghotra.manga_volume_tracker", "sig": "117209e0b1f4c0ea1a376a732de1e391", "signer": "3072ef3c5975afacff91908d05bb00b48bb96cee991d522e800c67c5d85041b9", "size": 7507437, "targetSdkVersion": 30, "versionCode": 1002, "versionName": "2.0.0"}]}}
+{
+  "repo": {
+    "timestamp": 1641939247000,
+    "version": 20000,
+    "name": "MangaVolumeTrackerRepo",
+    "icon": "logo.png",
+    "address": "https://kbitgit.github.io/MangaVolumeTrackerRepo/fdroid/repo/",
+    "description": "A Repository for a Manga Volume Tracker.",
+    "mirrors": [
+      "https://raw.githubusercontent.com/kbitGit/MangaVolumeTrackerRepo/master/fdroid/repo"
+    ]
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorName": "Pavitter Ghotra",
+      "categories": [
+        "Reading"
+      ],
+      "changelog": "https://raw.githubusercontent.com/kbitGit/manga_volume_tracker/master/CHANGELOG.md",
+      "suggestedVersionName": "2.0.1",
+      "suggestedVersionCode": "1000003",
+      "description": "Developed with Flutter Version 2.8.1\nA simple app with the goal to manage your manga volumes. Currently only tested and developed for Android.\nThe app tracks the following properties of a manga:\n* Title * Currently owned volumes * Total volumes or if it is still releasing * Format (physical or digital) * Custom Notes\nThe app supports Dark mode.",
+      "issueTracker": "https://github.com/kbitGit/manga_volume_tracker/issues",
+      "license": "MIT",
+      "name": "Manga Volume Tracker",
+      "sourceCode": "https://github.com/kbitGit/manga_volume_tracker",
+      "summary": "A simple app with the goal to manage your manga volumes",
+      "added": 1641939169000,
+      "packageName": "de.ghotra.manga_volume_tracker",
+      "lastUpdated": 1641939171000,
+      "localized": {
+        "de-DE": {
+          "featureGraphic": "featureGraphic_ogIomoKHJIVXNMkPhQB_GAHS0FwnhDXALIn0qHrx7Dc=.png",
+          "icon": "icon_ogIomoKHJIVXNMkPhQB_GAHS0FwnhDXALIn0qHrx7Dc=.png",
+          "phoneScreenshots": [
+            "app_screenshot1dark.jpg",
+            "app_screenshot1light.jpg",
+            "app_screenshot2dark.jpg",
+            "app_screenshot2light.jpg"
+          ]
+        },
+        "en-US": {
+          "featureGraphic": "featureGraphic_ogIomoKHJIVXNMkPhQB_GAHS0FwnhDXALIn0qHrx7Dc=.png",
+          "icon": "icon_ogIomoKHJIVXNMkPhQB_GAHS0FwnhDXALIn0qHrx7Dc=.png",
+          "phoneScreenshots": [
+            "app_screenshot1dark.jpg",
+            "app_screenshot1light.jpg",
+            "app_screenshot2dark.jpg",
+            "app_screenshot2light.jpg"
+          ]
+        }
+      }
+    }
+  ],
+  "packages": {
+    "de.ghotra.manga_volume_tracker": [
+      {
+        "added": 1641939169000,
+        "apkName": "manga_volume_tracker_2_0_1.apk",
+        "hash": "e7266b20dac03cd2012f2cca13c8d1fe6c5fc3339d52594edf70463e8556410c",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "de.ghotra.manga_volume_tracker",
+        "sig": "117209e0b1f4c0ea1a376a732de1e391",
+        "signer": "3072ef3c5975afacff91908d05bb00b48bb96cee991d522e800c67c5d85041b9",
+        "size": 22340788,
+        "targetSdkVersion": 30,
+        "versionCode": 1000003,
+        "versionName": "2.0.1"
+      },
+      {
+        "added": 1641939171000,
+        "apkName": "manga_volume_tracker_x86_64_2.apk",
+        "hash": "59c8d03027f0ec5b0a1fef9314e4087dd2ec9c5880e4b34cf92e1d7ac07e3d9a",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "x86_64"
+        ],
+        "packageName": "de.ghotra.manga_volume_tracker",
+        "sig": "117209e0b1f4c0ea1a376a732de1e391",
+        "signer": "3072ef3c5975afacff91908d05bb00b48bb96cee991d522e800c67c5d85041b9",
+        "size": 8333238,
+        "targetSdkVersion": 30,
+        "versionCode": 4002,
+        "versionName": "2.0.0"
+      },
+      {
+        "added": 1641939170000,
+        "apkName": "manga_volume_tracker_arm64-v8a_2.apk",
+        "hash": "06c150482a41d2732c0ccb73e7216c5e62b09c90a97a0f2106d6fe29cbd9fff2",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "de.ghotra.manga_volume_tracker",
+        "sig": "117209e0b1f4c0ea1a376a732de1e391",
+        "signer": "3072ef3c5975afacff91908d05bb00b48bb96cee991d522e800c67c5d85041b9",
+        "size": 8111932,
+        "targetSdkVersion": 30,
+        "versionCode": 2002,
+        "versionName": "2.0.0"
+      },
+      {
+        "added": 1641939170000,
+        "apkName": "manga_volume_tracker_armeabi-v7a_2.apk",
+        "hash": "9e7508e48e0d9631da5e4776272bab4c9c236c60a0f17569254434ef5641518b",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "de.ghotra.manga_volume_tracker",
+        "sig": "117209e0b1f4c0ea1a376a732de1e391",
+        "signer": "3072ef3c5975afacff91908d05bb00b48bb96cee991d522e800c67c5d85041b9",
+        "size": 7507437,
+        "targetSdkVersion": 30,
+        "versionCode": 1002,
+        "versionName": "2.0.0"
+      }
+    ]
+  }
+}
